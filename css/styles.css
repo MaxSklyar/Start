@@ -73,8 +73,8 @@
   background-clip: text;
   text-fill-color: transparent;
   align-self: end;
-  padding-right: 75px;
-  padding-bottom: 50px;
+  padding-right: 110px;
+  padding-bottom: 30px;
 }
 
 .header__image {
@@ -151,5 +151,140 @@
 }
 
 .info__gallery img {
+  width: 100%;
+}
+
+.color {
+  background-color: #f8f8f8;
+}
+
+.color__text {
+  text-align: center;
+  text-decoration: uppercase;
+  font-size: 160px;
+  margin-bottom: 70px;
+}
+
+.color__gallery {
+  background-color: #13171c;
+}
+
+.color__gallery-start,
+.color__gallery-end {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 170px 50px;
+  gap: 20px;
+  text-align: center;
+}
+
+.gallery-box img {
   max-width: 100%;
+  border-radius: 20px;
+}
+
+.gallery-box__text {
+  font-size: 36px;
+  color: white;
+}
+
+.contacts {
+  padding: 170px 0 100px;
+  background-color: #13171c;
+}
+
+.contacts__title {
+  text-align: center;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #FF5017;
+}
+
+.contacts__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px 200px;
+  padding-left: 300px;
+  padding-right: 150px;
+}
+
+.contacts__info {
+  max-width: 565px;
+}
+
+.contacts__head {
+  color: #bcbcbc;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.contacts__text,
+.contacts__text-rules,
+.phone {
+  color: white;
+}
+
+.contacts__text {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  max-width: 477px;
+}
+
+.contacts__text-rules {
+  padding-top: 77px;
+  font-size: 14px;
+  max-width: 330px;
+}
+
+.form {
+  flex-basis: 594px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 594px;
+  padding: 10px;
+  font-size: 24px;
+  font-family: 'Inter',sans-serif;
+  src: url(/fonts/Inter28pt-Black.woff2) format('woff2');
+  font-weight: 900;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.form__input::placeholder {
+  font-family: 'Inter',sans-serif;
+  src: url(/fonts/Inter28pt-Black.woff2) format('woff2');
+  font-weight: 900;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: white;
+}
+
+.form__order {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px 0 90px;
+  background-color: #13171c;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
 }
